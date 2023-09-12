@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
 
-# Set Plotly template to white background
+
 import plotly.io as pio
 pio.templates.default = "plotly_white"
 
