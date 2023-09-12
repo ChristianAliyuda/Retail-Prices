@@ -91,7 +91,7 @@ function global:deactivate ([switch]$NonDestructive) {
         Remove-Item -Path Env:_OLD_VIRTUAL_PATH
     }
 
-    # Just remove the VIRTUAL_ENV altogether:
+    
     if (Test-Path -Path Env:VIRTUAL_ENV) {
         Remove-Item -Path env:VIRTUAL_ENV
     }
