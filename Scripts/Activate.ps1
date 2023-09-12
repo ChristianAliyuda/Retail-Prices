@@ -79,7 +79,7 @@ function global:deactivate ([switch]$NonDestructive) {
         Remove-Item -Path Function:_OLD_VIRTUAL_PROMPT
     }
 
-    
+    # The prior PYTHONHOME:
     if (Test-Path -Path Env:_OLD_VIRTUAL_PYTHONHOME) {
         Copy-Item -Path Env:_OLD_VIRTUAL_PYTHONHOME -Destination Env:PYTHONHOME
         Remove-Item -Path Env:_OLD_VIRTUAL_PYTHONHOME
