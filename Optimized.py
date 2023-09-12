@@ -16,7 +16,7 @@ data = pd.read_csv('retail_price.csv')
 # Streamlit app
 st.title('Retail Price Analysis App')
 
-# Visualization Options
+
 st.sidebar.header('Visualization Options')
 chart_options = {
     'Histogram': 'Distribution of Total Price',
