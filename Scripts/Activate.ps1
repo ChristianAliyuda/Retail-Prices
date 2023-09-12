@@ -106,7 +106,7 @@ function global:deactivate ([switch]$NonDestructive) {
         Remove-Variable -Name _PYTHON_VENV_PROMPT_PREFIX -Scope Global -Force
     }
 
-    
+    # Leave deactivate function in the global namespace if requested:
     if (-not $NonDestructive) {
         Remove-Item -Path function:deactivate
     }
