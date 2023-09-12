@@ -53,7 +53,7 @@ st.plotly_chart(fig)
 st.sidebar.header('Modeling Options')
 model_button = st.sidebar.button('Train Decision Tree Regressor Model')
 
-
+# Model Training and Display Predictions
 if model_button:
     st.header('Predicted vs Actual Retail Price')
     data['comp_price_diff'] = data['unit_price'] - data['comp_1']
