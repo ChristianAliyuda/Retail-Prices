@@ -73,7 +73,7 @@ session.
 function global:deactivate ([switch]$NonDestructive) {
     # Revert to original values
 
-    # The prior prompt:
+   
     if (Test-Path -Path Function:_OLD_VIRTUAL_PROMPT) {
         Copy-Item -Path Function:_OLD_VIRTUAL_PROMPT -Destination Function:prompt
         Remove-Item -Path Function:_OLD_VIRTUAL_PROMPT
