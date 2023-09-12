@@ -66,8 +66,7 @@ addition of the virtual environment's Python executable from the beginning of
 the PATH variable.
 
 .Parameter NonDestructive
-If present, do not remove this function from the global namespace for the
-session.
+
 
 #>
 function global:deactivate ([switch]$NonDestructive) {
