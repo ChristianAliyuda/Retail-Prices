@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error
 import plotly.io as pio
 pio.templates.default = "plotly_white"
 
-# Load data
+
 data = pd.read_csv('retail_price.csv')
 
 # Streamlit app
