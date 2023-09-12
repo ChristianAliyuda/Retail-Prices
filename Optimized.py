@@ -13,7 +13,7 @@ pio.templates.default = "plotly_white"
 # Load data
 data = pd.read_csv('retail_price.csv')
 
-# Streamlit app
+
 st.title('Retail Price Analysis App')
 
 # Visualization Options
