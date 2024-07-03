@@ -58,7 +58,7 @@ elif selected_chart == 'Bar Chart - Price Difference':
     fig = px.bar(avg_price_diff_by_category, x='product_category_name', y='comp_price_diff')
     st.plotly_chart(fig)
 
-# Train a Decision Tree Regressor 
+# Train a Decision Tree Regressor
 st.sidebar.header('Modeling Options')
 model_button = st.sidebar.button('Train Decision Tree Regressor Model')
 
@@ -82,3 +82,4 @@ if model_button:
     
     mse = mean_squared_error(y_test, y_pred)
     st.write(f'Mean Squared Error: {mse:.2f}')
+
