@@ -83,4 +83,3 @@ if model_button:
     mse = mean_squared_error(y_test, y_pred)
     st.write(f'Mean Squared Error: {mse:.2f}')
 
-//////cleaned
