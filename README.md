@@ -1,4 +1,4 @@
-# RetailPrice Analysis App ##
+# RetailPrice Analysis App 
 
 This is a Streamlit web application for analyzing retail prices and training a Decision Tree Regressor model to predict prices based on various features.
 
@@ -13,7 +13,7 @@ This is a Streamlit web application for analyzing retail prices and training a D
 - Plotly: Install it using `pip install plotly`
 - Scikit-learn: Install it using `pip install scikit-learn`
 
-### Installation
+#### Installation
 
 
 Install the required dependencies:
