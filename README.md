@@ -40,7 +40,7 @@ The app will open in your default web browser, allowing you to select visualizat
 
 ### 🌟 Features
 - Choose from various visualizations such as histograms, box plots, scatter plots, and more.
-- Train and visualize the performance of a Decision Tree Regressor model.
+- Train and visualize the performance of a Decision Tree Regressor Model.
 ### 🤝 Contributing
 Contributions are welcome! Please feel free to fork this repository and submit pull requests.
 
